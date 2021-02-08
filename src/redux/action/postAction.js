@@ -1,0 +1,72 @@
+import * as api from "../../Api/index.js";
+import {
+  CREATE_POST,
+  DELETE_POST,
+  FETCH_ALL,
+  LIKE_POST,
+  UPDATE_POST,
+} from "./actionType.js";
+
+// Action Creators
+export const getPosts = () => async (dispatch) => {
+  try {
+    const { data } = await api.fetchPosts();
+    dispatch({ type: FETCH_ALL, payload: data });
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+export const createPost = (post) => async (dispatch) => {
+  try {
+    const { data } = await api.createPost(post);
+    dispatch({ type: CREATE_POST, payload: data });
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+export const updatePost = (id, updatedPost) => async (dispatch) => {
+  try {
+    const { data } = await api.updatePost(id, updatedPost);
+    // console.log(data)
+    dispatch({ type: UPDATE_POST, payload: data });
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+export const deletePost = (id) => async (dispatch) => {
+  try {
+    await api.deletePost(id);
+    dispatch({ type: DELETE_POST, payload: id });
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+export const likePost = (id) => async (dispatch) => {
+  try {
+    const { data } = await api.likePost(id);
+    console.log(data);
+    dispatch({ type: LIKE_POST, payload: data });
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
