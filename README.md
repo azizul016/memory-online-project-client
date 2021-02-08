@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Memories
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Memories](https://i.ibb.co/4fFX6qG/screenshot-memory-project-e0f5c-web-app-2021-02-09-02-16-44.png)
 
-## Available Scripts
+<h1>Memory Application </h1> <h5> -A full stack web app for memory application.</h5>
+   <ul> 
+	  <li> <a target="_blank" href="https://memory-project-e0f5c.web.app/"> Live Website Link</a>
+	  <li> <a target="_blank" href="https://github.com/azizul016/memory-online-project-client"> Client Side Code Link</a>
+	  <li> <a target="_blank" href="https://github.com/azizul016/memory-project-server"> Server Side Code Link</a>
+   </ul>
+    
+<h2>Description </h2>
+<p> It's a full MERN stack Web Application where anyone can save his work details with image. Any one can memorized his works and give like. Delete and update option is implemented</p>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2> Functionality </h2>
+<ul>
+   <li> <b> CURD operations by Mongoose</b>
+  <li> <b>Render multiple pages through React Router</b>
+  <li> <b> Store data globally by REDUX </b>
+  <li> <b> Firebase Authentication </b>
+  <li> <b> Store data in  MongoDB by Mongoose and Express </b>
+  <li> <b> Good Looking Landing page</b>
+  <li> <b> Store data at localStorage </b>
+  <li> <b> Deploy client side on firebase</b>
+   <li> <b> Deploy server side on Heroku</b>
+</ul>
+     
+  <h2> Technology </h2>
+   <ul> 
+     <li> REACT
+     <li> Node js
+     <li> Express js
+     <li> Mongoose
+     <li> Firebase Hosting
+     <li> REDUX
+     <li> Material UI
+      <li> Heroku
+ </ul>
